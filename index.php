@@ -3,7 +3,6 @@
 	echo "Forse.... - Trigger";
 	echo "Forse.... - Trigger";
 	echo "Forse.... - Trigger";
-	echo "UltimaYWYyNTFhNTA1MmJiZDQ1Mw==";
 
 
 ?>
