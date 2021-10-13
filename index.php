@@ -17,4 +17,6 @@
 	curl_close($ch);
 	echo $result;
 
+  	echo curl_error($ch);
+
 ?>
