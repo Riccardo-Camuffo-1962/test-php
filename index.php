@@ -1,11 +1,6 @@
 <?php
 	echo "<pre>";
-	echo "<H1>PHP Forever</H1>
-	echo "Siamo solo noi<br>";
-	echo "Forse.... - Trigger<br>";
-	echo "Forse.... - Trigger<br>";
-	echo "Effetto demo Wally<br>";
-
+	echo "<H1>PHP Forever</H1>";
 	echo "<H2>Connessione a OrientDB</H2>";
 
 	$ch = curl_init();
