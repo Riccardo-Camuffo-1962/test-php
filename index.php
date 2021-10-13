@@ -9,7 +9,7 @@
 	echo "<H2>Connessione a OrientDB</H2>";
 
 	$ch = curl_init();
-	curl_setopt( $ch, CURLOPT_URL, 'http://192.168.10.25' );
+	curl_setopt( $ch, CURLOPT_URL, '192.168.10.25' );
 	curl_setopt( $ch, CURLOPT_PORT, 2424 );
 	curl_setopt( $ch, CURLOPT_TIMEOUT, 400 );
 	curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, TRUE );
