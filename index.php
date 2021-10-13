@@ -14,9 +14,10 @@
 	$report=curl_getinfo($ch);
 	print_r($report);
 	$result = curl_exec($ch);
+  	echo curl_error($ch);
+
 	curl_close($ch);
 	echo $result;
 
-  	echo curl_error($ch);
 
 ?>
